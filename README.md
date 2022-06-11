@@ -1,28 +1,30 @@
-# Scafold para nueva App de React versión 17.02
+# Pasos para generar un nuevo proyecto de React con la versión 17.02
 
-Pasos para instalar esta plantilla..
-
-## 1. Instalar yarn en el equipo de forma global, en Linux/Mac iniciarlo con sudo.
+## 1. Instalar yarn en el equipo de forma global -en Linux/Mac iniciarlo con sudo-.
 
 ### `npm install --global yarn`
 
 ## 2. Crear carpeta del proyecto.
 
-## 3. Editar el archivo package.json y colocar en la linea 2 el nombre del Proyecto.
+### 3. Copiar/Clonar el contenido de este repositorio en la carpeta del Proyecto
+
+### `git clone https://github.com/linuxexp1/create-react-app-17-02.git`
+
+## 4. Editar el archivo package.json y colocar en la linea 2 el nombre del Proyecto.
     {...
      "name": "nombre-del-proyecto",
-     }
+     ...}
 
-## 3. Ejecutar en la terminal de comandos: 
+## 5. Ejecutar en la terminal de comandos: 
 
 ### `yarn`
 Este paso instalará los módulos requeridos y generará el archivo yarn.lock
 
-## 3. Probar que todo funciona ejecutando en la terminal de comandos: 
+## 6. Probar que todo funciona ejecutando en la terminal de comandos: 
 
 ### `yarn run start`
 
-## 3. Verificar que funciona con npm:
+## 7. Verificar que funciona con npm:
 
 ### `npm run start`
 
